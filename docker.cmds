@@ -1,0 +1,5 @@
+docker build -t iris-classifier-app .
+docker run -it iris-classifier-app
+docker commit image_id bharatcoder/iris-classifier-app:1
+docker push bharatcoder/iris-classifier-app:1
+docker push bharatcoder/iris-classifier-app:1

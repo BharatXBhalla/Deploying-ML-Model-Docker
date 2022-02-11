@@ -32,7 +32,7 @@ def classify():
     return result
 
 model=Model()
-model.load_model(os.getcwd()+"\\"+model_file_name)
+model.load_model(os.getcwd()+"/"+model_file_name)
 
 if __name__=="__main__": 
     app.run()
